@@ -6,6 +6,7 @@ target 'WalkQuest' do
   use_frameworks!
 
   # Pods for WalkQuest
+  pod 'LocationRequestManager', :git => 'git://github.com/juancruzmdq/LocationRequestManager', :branch => 'master'
 
   target 'WalkQuestTests' do
     inherit! :search_paths

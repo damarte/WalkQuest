@@ -7,15 +7,23 @@
 //
 
 import UIKit
+import MapKit
+import LocationRequestManager
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    var locationManager = LocationRequestManager()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        //Location
+        self.locationManager.requestWhenInUseAuthorization { (status:CLAuthorizationStatus) in
+            print("Auth Status: \(status)")
+        }
+        
         return true
     }
 

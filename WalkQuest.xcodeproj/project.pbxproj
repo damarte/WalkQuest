@@ -8,11 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		05AFE79C1E674625000640F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AFE79B1E674625000640F2 /* AppDelegate.swift */; };
-		05AFE79E1E674625000640F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AFE79D1E674625000640F2 /* ViewController.swift */; };
 		05AFE7A11E674625000640F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05AFE79F1E674625000640F2 /* Main.storyboard */; };
 		05AFE7A31E674625000640F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05AFE7A21E674625000640F2 /* Assets.xcassets */; };
 		05AFE7A61E674625000640F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05AFE7A41E674625000640F2 /* LaunchScreen.storyboard */; };
 		05AFE7B11E674626000640F2 /* WalkQuestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AFE7B01E674626000640F2 /* WalkQuestTests.swift */; };
+		05AFE7D31E6748B4000640F2 /* MainConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AFE7CC1E6748B4000640F2 /* MainConfigurator.swift */; };
+		05AFE7D41E6748B4000640F2 /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AFE7CD1E6748B4000640F2 /* MainInteractor.swift */; };
+		05AFE7D51E6748B4000640F2 /* MainModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AFE7CE1E6748B4000640F2 /* MainModels.swift */; };
+		05AFE7D61E6748B4000640F2 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AFE7CF1E6748B4000640F2 /* MainPresenter.swift */; };
+		05AFE7D71E6748B4000640F2 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AFE7D01E6748B4000640F2 /* MainRouter.swift */; };
+		05AFE7D81E6748B4000640F2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AFE7D11E6748B4000640F2 /* MainViewController.swift */; };
+		05AFE7D91E6748B4000640F2 /* MainWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AFE7D21E6748B4000640F2 /* MainWorker.swift */; };
+		05AFE7E01E6748F6000640F2 /* MainInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AFE7DC1E6748F6000640F2 /* MainInteractorTests.swift */; };
+		05AFE7E11E6748F6000640F2 /* MainPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AFE7DD1E6748F6000640F2 /* MainPresenterTests.swift */; };
+		05AFE7E21E6748F6000640F2 /* MainViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AFE7DE1E6748F6000640F2 /* MainViewControllerTests.swift */; };
+		05AFE7E31E6748F6000640F2 /* MainWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AFE7DF1E6748F6000640F2 /* MainWorkerTests.swift */; };
+		05AFE7EA1E674988000640F2 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AFE7E91E674988000640F2 /* Player.swift */; };
+		05AFE7EC1E674ADB000640F2 /* PlayersWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AFE7EB1E674ADB000640F2 /* PlayersWorker.swift */; };
+		05AFE7EE1E674F16000640F2 /* PlayersMemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AFE7ED1E674F16000640F2 /* PlayersMemStore.swift */; };
+		05AFE7F01E675081000640F2 /* PlayersWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AFE7EF1E675081000640F2 /* PlayersWorkerTests.swift */; };
+		05AFE7F21E675398000640F2 /* PlayersMemStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AFE7F11E675398000640F2 /* PlayersMemStoreTests.swift */; };
+		05AFE8001E6774AA000640F2 /* TileOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AFE7FF1E6774AA000640F2 /* TileOverlay.swift */; };
 		1F4B45753BA45EA6EF5C0438 /* Pods_WalkQuest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5600D0B08F39CF1C6E7C73 /* Pods_WalkQuest.framework */; };
 		A5ACD1487ABFD6A8B9D28923 /* Pods_WalkQuestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A327C86E7D8567B279E61EB /* Pods_WalkQuestTests.framework */; };
 /* End PBXBuildFile section */
@@ -30,7 +46,6 @@
 /* Begin PBXFileReference section */
 		05AFE7981E674625000640F2 /* WalkQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalkQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05AFE79B1E674625000640F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		05AFE79D1E674625000640F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		05AFE7A01E674625000640F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05AFE7A21E674625000640F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05AFE7A51E674625000640F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +53,23 @@
 		05AFE7AC1E674626000640F2 /* WalkQuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalkQuestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05AFE7B01E674626000640F2 /* WalkQuestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkQuestTests.swift; sourceTree = "<group>"; };
 		05AFE7B21E674626000640F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05AFE7CC1E6748B4000640F2 /* MainConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainConfigurator.swift; sourceTree = "<group>"; };
+		05AFE7CD1E6748B4000640F2 /* MainInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		05AFE7CE1E6748B4000640F2 /* MainModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainModels.swift; sourceTree = "<group>"; };
+		05AFE7CF1E6748B4000640F2 /* MainPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		05AFE7D01E6748B4000640F2 /* MainRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		05AFE7D11E6748B4000640F2 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		05AFE7D21E6748B4000640F2 /* MainWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWorker.swift; sourceTree = "<group>"; };
+		05AFE7DC1E6748F6000640F2 /* MainInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainInteractorTests.swift; sourceTree = "<group>"; };
+		05AFE7DD1E6748F6000640F2 /* MainPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPresenterTests.swift; sourceTree = "<group>"; };
+		05AFE7DE1E6748F6000640F2 /* MainViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewControllerTests.swift; sourceTree = "<group>"; };
+		05AFE7DF1E6748F6000640F2 /* MainWorkerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWorkerTests.swift; sourceTree = "<group>"; };
+		05AFE7E91E674988000640F2 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		05AFE7EB1E674ADB000640F2 /* PlayersWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersWorker.swift; sourceTree = "<group>"; };
+		05AFE7ED1E674F16000640F2 /* PlayersMemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersMemStore.swift; sourceTree = "<group>"; };
+		05AFE7EF1E675081000640F2 /* PlayersWorkerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersWorkerTests.swift; sourceTree = "<group>"; };
+		05AFE7F11E675398000640F2 /* PlayersMemStoreTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersMemStoreTests.swift; sourceTree = "<group>"; };
+		05AFE7FF1E6774AA000640F2 /* TileOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileOverlay.swift; sourceTree = "<group>"; };
 		0FEAE0E6206C599B4154DDF2 /* Pods-WalkQuest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalkQuest.release.xcconfig"; path = "Pods/Target Support Files/Pods-WalkQuest/Pods-WalkQuest.release.xcconfig"; sourceTree = "<group>"; };
 		3D5600D0B08F39CF1C6E7C73 /* Pods_WalkQuest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WalkQuest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		745DD41083AD17445E3D15B5 /* Pods-WalkQuestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalkQuestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WalkQuestTests/Pods-WalkQuestTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -89,8 +121,11 @@
 		05AFE79A1E674625000640F2 /* WalkQuest */ = {
 			isa = PBXGroup;
 			children = (
+				05AFE7E41E674959000640F2 /* Models */,
+				05AFE7E51E674959000640F2 /* Services */,
+				05AFE7E61E674959000640F2 /* Workers */,
+				05AFE7CA1E6748B4000640F2 /* Scenes */,
 				05AFE79B1E674625000640F2 /* AppDelegate.swift */,
-				05AFE79D1E674625000640F2 /* ViewController.swift */,
 				05AFE79F1E674625000640F2 /* Main.storyboard */,
 				05AFE7A21E674625000640F2 /* Assets.xcassets */,
 				05AFE7A41E674625000640F2 /* LaunchScreen.storyboard */,
@@ -102,10 +137,95 @@
 		05AFE7AF1E674626000640F2 /* WalkQuestTests */ = {
 			isa = PBXGroup;
 			children = (
+				05AFE7E71E674964000640F2 /* Services */,
+				05AFE7E81E674964000640F2 /* Workers */,
+				05AFE7DA1E6748E5000640F2 /* Scenes */,
 				05AFE7B01E674626000640F2 /* WalkQuestTests.swift */,
 				05AFE7B21E674626000640F2 /* Info.plist */,
 			);
 			path = WalkQuestTests;
+			sourceTree = "<group>";
+		};
+		05AFE7CA1E6748B4000640F2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				05AFE7CB1E6748B4000640F2 /* Main */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		05AFE7CB1E6748B4000640F2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				05AFE7CC1E6748B4000640F2 /* MainConfigurator.swift */,
+				05AFE7CD1E6748B4000640F2 /* MainInteractor.swift */,
+				05AFE7CE1E6748B4000640F2 /* MainModels.swift */,
+				05AFE7CF1E6748B4000640F2 /* MainPresenter.swift */,
+				05AFE7D01E6748B4000640F2 /* MainRouter.swift */,
+				05AFE7D11E6748B4000640F2 /* MainViewController.swift */,
+				05AFE7D21E6748B4000640F2 /* MainWorker.swift */,
+				05AFE7FF1E6774AA000640F2 /* TileOverlay.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		05AFE7DA1E6748E5000640F2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				05AFE7DB1E6748E5000640F2 /* Main */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		05AFE7DB1E6748E5000640F2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				05AFE7DC1E6748F6000640F2 /* MainInteractorTests.swift */,
+				05AFE7DD1E6748F6000640F2 /* MainPresenterTests.swift */,
+				05AFE7DE1E6748F6000640F2 /* MainViewControllerTests.swift */,
+				05AFE7DF1E6748F6000640F2 /* MainWorkerTests.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		05AFE7E41E674959000640F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				05AFE7E91E674988000640F2 /* Player.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		05AFE7E51E674959000640F2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				05AFE7ED1E674F16000640F2 /* PlayersMemStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		05AFE7E61E674959000640F2 /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				05AFE7EB1E674ADB000640F2 /* PlayersWorker.swift */,
+			);
+			path = Workers;
+			sourceTree = "<group>";
+		};
+		05AFE7E71E674964000640F2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				05AFE7F11E675398000640F2 /* PlayersMemStoreTests.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		05AFE7E81E674964000640F2 /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				05AFE7EF1E675081000640F2 /* PlayersWorkerTests.swift */,
+			);
+			path = Workers;
 			sourceTree = "<group>";
 		};
 		1CCB479DA42B94C0C1867ECE /* Frameworks */ = {
@@ -332,8 +452,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05AFE79E1E674625000640F2 /* ViewController.swift in Sources */,
+				05AFE7EE1E674F16000640F2 /* PlayersMemStore.swift in Sources */,
+				05AFE7D71E6748B4000640F2 /* MainRouter.swift in Sources */,
+				05AFE7EC1E674ADB000640F2 /* PlayersWorker.swift in Sources */,
+				05AFE7D61E6748B4000640F2 /* MainPresenter.swift in Sources */,
 				05AFE79C1E674625000640F2 /* AppDelegate.swift in Sources */,
+				05AFE7D91E6748B4000640F2 /* MainWorker.swift in Sources */,
+				05AFE7D51E6748B4000640F2 /* MainModels.swift in Sources */,
+				05AFE7D31E6748B4000640F2 /* MainConfigurator.swift in Sources */,
+				05AFE7D41E6748B4000640F2 /* MainInteractor.swift in Sources */,
+				05AFE7EA1E674988000640F2 /* Player.swift in Sources */,
+				05AFE8001E6774AA000640F2 /* TileOverlay.swift in Sources */,
+				05AFE7D81E6748B4000640F2 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +471,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05AFE7E31E6748F6000640F2 /* MainWorkerTests.swift in Sources */,
+				05AFE7E11E6748F6000640F2 /* MainPresenterTests.swift in Sources */,
+				05AFE7F21E675398000640F2 /* PlayersMemStoreTests.swift in Sources */,
 				05AFE7B11E674626000640F2 /* WalkQuestTests.swift in Sources */,
+				05AFE7E01E6748F6000640F2 /* MainInteractorTests.swift in Sources */,
+				05AFE7F01E675081000640F2 /* PlayersWorkerTests.swift in Sources */,
+				05AFE7E21E6748F6000640F2 /* MainViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,6 +681,7 @@
 				05AFE7B71E674626000640F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05AFE7B81E674626000640F2 /* Build configuration list for PBXNativeTarget "WalkQuestTests" */ = {
 			isa = XCConfigurationList;
@@ -553,6 +690,7 @@
 				05AFE7BA1E674626000640F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
